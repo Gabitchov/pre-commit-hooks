@@ -1,0 +1,6 @@
+- id: check-eclint
+  name: eclint check
+  description: This hook runs eclint check
+  entry: eclint check
+  language: node
+  types: [text]
