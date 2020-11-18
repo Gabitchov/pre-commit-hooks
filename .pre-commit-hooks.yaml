@@ -1,6 +1,6 @@
 - id: check-editorconfig
   name: Editorconfig check
-  description: This hook runs editorconfigcheck
+  description: This hook runs editorconfig check
   entry: editorconfig-checker
   language: node
   types: [text]
