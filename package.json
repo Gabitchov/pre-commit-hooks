@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "eclint": "latest"
+    "editorconfig-checker": "latest"
   }
 }

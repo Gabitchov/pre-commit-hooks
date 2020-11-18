@@ -16,11 +16,11 @@ repos:
 - repo: https://github.com/Gabitchov/pre-commit-hooks.git
     rev: (SHA1|TAG)
     hooks:
-      - id: check-eclint
+      - id: check-editorconfig
 ```
 
 ## Hooks
 
-### check-eclint
+### check-editorconfig
 
-Integration of [eclint](https://github.com/jedmao/eclint)'s check command as hook.
+Integration of [editorconfig-checker](github.com/editorconfig-checker/editorconfig-checker.javascript)'s check command as hook.

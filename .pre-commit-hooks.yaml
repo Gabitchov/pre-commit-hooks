@@ -1,6 +1,6 @@
-- id: check-eclint
-  name: eclint check
-  description: This hook runs eclint check
-  entry: eclint check
+- id: check-editorconfig
+  name: Editorconfig check
+  description: This hook runs editorconfigcheck
+  entry: editorconfig-checker
   language: node
   types: [text]
