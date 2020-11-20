@@ -1,6 +1,6 @@
-- id: check-editorconfig
-  name: Editorconfig check
-  description: This hook runs editorconfig check
-  entry: editorconfig-checker
-  language: node
+- id: editorconfig-checker
+  name: 'editorconfig checker'
+  entry: run-editorconfig-checker.sh
   types: [text]
+  language: 'script'
+  description: 'Runs `ec`, requires editorconfig-checker cli'
