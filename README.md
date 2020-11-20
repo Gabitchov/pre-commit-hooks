@@ -16,11 +16,11 @@ repos:
 - repo: https://github.com/Gabitchov/pre-commit-hooks.git
     rev: (SHA1|TAG)
     hooks:
-      - id: check-editorconfig
+      - id: editorconfig-checker
 ```
 
 ## Hooks
 
-### check-editorconfig
+### editorconfig-checker
 
-Integration of [editorconfig-checker](github.com/editorconfig-checker/editorconfig-checker.javascript)'s check command as hook.
+Integration of [editorconfig-checker](https://github.com/editorconfig-checker/editorconfig-checker)'s check command as hook.
